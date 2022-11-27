@@ -7,16 +7,16 @@ let next = document.querySelector(".arrow");
 let userInedx = 0;
 let avatars = [
   {
-    img: "./images/av-2.jpg",
+    img: "./images/av-2.webp",
   },
   {
-    img: "./images/av-3.jpg",
+    img: "./images/av-3.webp",
   },
   {
-    img: "./images/av-4.jpg",
+    img: "./images/av-4.webp",
   },
   {
-    img: "./images/av-5.jpg",
+    img: "./images/av-5.webp",
   },
 ];
 
