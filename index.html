@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- card-->
+      <div class="card">
+        <div class="card__screen">
+          <!-- card header-->
+          <header class="card__header">
+            <div class="micro"></div>
+            <nav class="card__navigation">
+              <figure class="arrow">
+                <img src="./images/arrow.png" alt="" />
+                <!--<a href="https://www.flaticon.com/free-icons/chevron" title="chevron icons">Chevron icons created by rukanicon - Flaticon</a>-->
+              </figure>
+              <!-- user data grid / flex -->
+              <div class="user__details">
+                <figure class="user__avatar">
+                  <img src="./images/av-2.jpg" alt="user avatar" />
+                </figure>
+                <div class="user__data">
+                  <h2 class="user__name">Samuel Green</h2>
+                  <span class="user__status"> Available to Walk</span>
+                </div>
+              </div>
+              <!-- card menu -->
+              <figure class="menu">
+                <img src="./images/menu.png" alt="" />
+                <!--<a href="https://www.flaticon.com/free-icons/three-dots" title="three dots icons">Three dots icons created by manglayang studio - Flaticon</a>-->
+              </figure>
+            </nav>
+          </header>
+          <!-- card secreen display -->
+          <main class="main">
+            <div class="user accent">
+              <p class="user__description">
+                That sounds great. I’d be happy with that.
+              </p>
+            </div>
+            <div class="user accent">
+              <p class="user__description">
+                Could you send over some pictures of your dog, please?
+              </p>
+            </div>
+            <!-- card picture -->
+            <div class="user__pictures">
+              <ul class="picture__list">
+                <li class="list__items">
+                  <img src="./images/dog-image-1.jpg" alt="dog picture" />
+                </li>
+                <li class="list__items">
+                  <img src="./images/dog-image-2.jpg" alt="dog picture" />
+                </li>
+                <li class="list__items">
+                  <img src="./images/dog-image-3.jpg" alt="dog picture" />
+                </li>
+              </ul>
+            </div>
+            <div class="user">
+              <p class="user__description">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+            </div>
+            <div class="user">
+              <p class="user__description">Can you make it?</p>
+            </div>
+            <div class="user accent">
+              <p class="user__description">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+            <!-- card price -->
+            <div class="user__price">
+              <div class="options">
+                <div class="options__wrapper">
+                  <input type="radio" name="walk-time" value="30 min" />
+                  <label for="walk-time"> 30 minute walk </label
+                  ><strong> $29</strong>
+                </div>
+                <div class="options__wrapper">
+                  <input type="radio" name="walk-time" value="60 min" />
+                  <label for="walk-time"> 1 hour walk </label
+                  ><strong> $49 </strong>
+                </div>
+              </div>
+            </div>
+            <!-- input message -->
+          </main>
+          <section class="message">
+            <div class="input__message">
+              <div class="input__wrapper">
+                <input
+                  class="send-message"
+                  type="text"
+                  placeholder="  Type a message…"
+                />
+                <figure class="next">
+                  <img src="./images/arrow.png" alt="" />
+                </figure>
+              </div>
+            </div>
+            <span class="alert"></span>
+          </section>
+        </div>
+      </div>
+      <!-- page description -->
+      <div class="page__info">
+        <h1 class="page__title">Simple booking</h1>
+        <p class="page__description">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
